@@ -45,3 +45,16 @@ Power BI, a business analytics tool, automatically refreshes every 30 seconds us
 #### Analytical Streaming:
 The analytical dashboard focuses on historical data.
 At the end of each day, a Lambda function is triggered to extract data specific to that day, which is then stored in S3. Another Lambda function retrieves this data from S3 and writes it into an Amazon Redshift table, a powerful data warehousing solution. QuickSight, a cloud-based business intelligence tool, copies the data from Redshift and creates an analytical dashboard, providing insights into historical patterns and trends.
+
+## Tools and Technologies:
+
+All project pipelines are built using various AWS services.
+
+* Amazon S3 
+* AWS Lambda
+* Amazon DynamoDB
+* Amazon Kinesis
+* Amazon Athena
+* Amazon Redshift
+* Amazon QuickSight
+* Power BI
