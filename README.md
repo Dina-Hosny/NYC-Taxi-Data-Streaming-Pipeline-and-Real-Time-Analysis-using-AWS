@@ -9,6 +9,9 @@ A data pipeline that gets the data from NYC Taxi, simulates the “Real-Time” 
 
 ## Project Layers:
 
+![Pipeline](https://github.com/Dina-Hosny/NYC-Taxi-Data-Streaming-Pipeline-and-Real-Time-Analysis-using-AWS/assets/46838441/ec862345-672b-4afc-b779-631263444c70)
+
+
 #### 1- Data Ingestion:
 Source files are uploaded to Amazon S3, a highly scalable object storage service, to simulate real-time data.
 
